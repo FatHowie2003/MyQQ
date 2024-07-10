@@ -116,9 +116,9 @@ public class User implements Serializable {
         this.chat_id = chat_id;
     }
 
-     @Override
-    public String toString(){
-        return "{username:" + this.getUsername() + ",password:" +this.getPassword() + "}";
-    }
-
+//     @Override
+//    public String toString(){
+//        return "{username:" + this.getUsername() + ",password:" +this.getPassword() + "}";
+//    }
+//damn!!!!
 }
