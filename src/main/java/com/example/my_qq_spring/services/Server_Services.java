@@ -203,7 +203,6 @@ public class Server_Services {
     }
 
     public synchronized boolean recv_message(Chat_Message message){
-
         try {
 
             String sql1 = "INSERT INTO messages(send_time,sender_id,receiver_id,chat_id,content)" +
